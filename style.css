@@ -1,0 +1,231 @@
+/* CSS for Food SEarch Section */
+.pagestyle {
+  background-color: rgb(255, 255, 255);
+  background-image: url(img/bg-img-blue2.jpg);
+  background-size: cover;
+  padding: 120px 0;
+  border-radius: 20px;
+  width: 78%;
+  margin: auto;
+  margin-top: 3%;
+}
+@media (max-width: 991.98px) {
+  .pagestyle {
+    width: 78%;
+    margin-top: 50px;
+    width: 90%; } }
+
+.pagestyleInfo {
+      padding: 30px;
+      background-color: rgb(255, 255, 255);
+      border: solid;
+      border-color: black;
+      margin: auto;
+}
+@media (max-width: 991.98px) {
+      .pagestyleInfo {
+        padding: 0px;
+        margin-left: -11px;
+        border: none;
+        margin-top: 0px;
+        width: 90%; } }
+
+.section1 {
+  margin-bottom: 30px;  
+  }
+  @media (max-width: 991.98px) {
+    .section1 {
+      font-size: 2.5rem; } }
+
+.section1 h1 {
+  text-align: center;
+  margin:auto;
+  font-size: 3rem;
+  background-color: rgba(179, 179, 179, 0.205);
+  width: 180px;
+  color: #d3d3d3;
+  }
+  @media (max-width: 991.98px) {
+    .section1 {
+      font-size: 2.5rem; } }
+
+.section1 h2 {
+  text-align: center;
+  margin:auto;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  border: solid;
+  border-color: rgb(21, 22, 22);
+  background-color: rgba(88, 83, 83, 0.829);
+  width: 180px;
+  color: #ffffff;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 10px;
+    height: 70px; /* Should be removed. Only for demonstration */
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th{
+    background-color: rgb(136, 212, 212);
+  }
+  td, th {
+    border: 0.5px solid #050505;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  @media (max-width: 991.98px) {
+    .row {
+      display: inline-block;
+    }
+    }
+
+.auth-login{
+  text-align: center;
+  margin: auto;
+  background-color: aqua;
+  border-radius: 20px;
+  height: 150px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 5% 0;
+  box-shadow: 2px 2px 5px rgba(99, 99, 99, 0.473);
+}
+
+.auth-login input[type="search1"]{
+  margin-top: 10px;
+  width: 250px;
+  height: 30px;
+  padding: 1%;
+  font-size: 1rem;
+  border-style: solid;
+  border-radius: 5px;
+}
+.auth-login input[type="search2"]{
+  margin-top: 10px;
+  width: 250px;
+  height: 30px;
+  padding: 1%;
+  font-size: 1rem;
+  border-style: solid;
+  border-radius: 5px;
+}
+.auth-login input[type="submit"]{
+  margin-top: 30px;
+  border-radius: 5px;
+  border: none;
+  color: aliceblue;
+  font-weight: bold;
+  background-color: rgb(111, 126, 255);
+  height: 30px;
+  width: 120px;
+  box-shadow: 2px 2px 5px rgb(99, 99, 99);
+  justify-content: center;
+}
+.auth-login input[type="submit"]:hover, a:hover{
+  background-color: rgb(74, 84, 175);
+  cursor: pointer;
+}
+
+@media (max-width: 991.98px) {
+  .auth-login {
+    padding: 5% 0;
+    width: 350px;
+  }
+  .auth-login input[type="search1"]{
+    width: 210px;
+  }
+  .auth-login input[type="search2"]{
+    width: 210px;
+  }
+  .auth-login input[type="submit"]{
+      margin-top: 20px;
+    }   
+  }
+
+  .button-menu{
+    text-align: center;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0);
+    height: 400px;
+    width: 200px;
+    /*box-shadow: 2px 2px 5px rgba(99, 99, 99, 0.473);*/
+  }
+  .button-menu input[type="submit"]{
+    text-align: center;
+    color: #ffffff;
+    background-color: rgb(0, 168, 0);
+    margin-top: 100px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    height: 40px;
+    width: 160px;
+    box-shadow: 2px 2px 5px rgb(99, 99, 99);
+    justify-content: center;
+  }
+  .button-menu input[name="submit2"]{
+    background-color: rgb(204, 72, 32);
+    position: fixed;
+    left: 100px;
+    bottom: 40px;
+  }
+  .button-menu input[type="submit"]:hover, a:hover{
+    background-color: rgb(74, 84, 175);
+    cursor: pointer;
+  }
+  @media (max-width: 991.98px) {
+    .button-menu{
+      display: flex;
+      margin-top: -60px;
+      margin-left: 0px;
+    }
+    .button-menu input[name="submit2"] {
+      margin-left: 120px;
+      position: static;
+    }
+    table{
+      margin-left: 12px;
+      width: 100%;
+    }
+  }
+  
+
+img.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  margin-top: -20px;
+}
+
+canvas.card{
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  width:30%;
+  max-width:1200px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+@media (max-width: 991.98px){
+  canvas.card{
+    padding: 0px;
+  }
+}
+
